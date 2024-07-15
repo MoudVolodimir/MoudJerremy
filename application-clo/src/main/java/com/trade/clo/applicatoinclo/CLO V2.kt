@@ -88,6 +88,7 @@ fun CustomWebView(
 
             settings.apply {
                 javaScriptEnabled = true
+                cacheMode = WebSettings.LOAD_NO_CACHE
                 domStorageEnabled = true
                 loadWithOverviewMode = true
                 useWideViewPort = true
